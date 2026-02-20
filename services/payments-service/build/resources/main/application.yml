@@ -12,6 +12,13 @@ spring:
   kafka:
     bootstrap-servers: localhost:9092
 
+bankops:
+  outbox:
+    batch-size: 20
+    poll-ms: 250
+  internal-endpoints:
+    enabled: true
+
 management:
   endpoints:
     web:
