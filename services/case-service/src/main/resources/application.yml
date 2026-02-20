@@ -11,6 +11,9 @@ spring:
     enabled: true
   kafka:
     bootstrap-servers: localhost:9092
+    consumer:
+      group-id: bankops-case-service
+      auto-offset-reset: earliest
 
 management:
   endpoints:
