@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bankops.risk.core.RiskDecisionEngineTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-02-20T07:27:20.708Z" hostname="Erics-MacBook-Pro.local" time="0.541">
+<testsuite name="com.bankops.risk.core.RiskDecisionEngineTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-02-20T07:35:30.504Z" hostname="Erics-MacBook-Pro.local" time="0.53">
   <properties/>
-  <testcase name="shouldClearWhenUnderThresholdAndVelocity()" classname="com.bankops.risk.core.RiskDecisionEngineTest" time="0.533"/>
+  <testcase name="shouldClearWhenUnderThresholdAndVelocity()" classname="com.bankops.risk.core.RiskDecisionEngineTest" time="0.522"/>
   <testcase name="shouldHoldWhenOverVelocityThreshold()" classname="com.bankops.risk.core.RiskDecisionEngineTest" time="0.002"/>
   <testcase name="shouldHoldWhenOverAmountThreshold()" classname="com.bankops.risk.core.RiskDecisionEngineTest" time="0.001"/>
   <testcase name="shouldHoldWithMultipleReasons()" classname="com.bankops.risk.core.RiskDecisionEngineTest" time="0.002"/>
