@@ -18,6 +18,8 @@ bankops:
     poll-ms: 250
   internal-endpoints:
     enabled: true
+  ledger:
+    base-url: http://localhost:8082
 
 management:
   endpoints:

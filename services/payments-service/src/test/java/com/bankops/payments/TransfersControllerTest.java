@@ -50,7 +50,7 @@ public class TransfersControllerTest {
                 transferId, "PENDING", "PENDING", from, to, 1000, "USD", "test", Instant.now()
         );
 
-        when(transferRepository.findById(any(UUID.class))).thenReturn(Optional.of(mockResponse));
+        when(transferRepository.findResponseById(any(UUID.class))).thenReturn(Optional.of(mockResponse));
 
         HttpHeaders headers = new HttpHeaders();
         headers.set("Idempotency-Key", "key-123");

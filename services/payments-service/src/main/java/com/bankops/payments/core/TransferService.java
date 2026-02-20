@@ -71,7 +71,7 @@ public class TransferService {
                     objectMapper.writeValueAsString(payload)
             );
 
-            TransferResponse response = transferRepository.findById(transferId)
+            TransferResponse response = transferRepository.findResponseById(transferId)
                     .orElseThrow(() -> new RuntimeException("Failed to find created transfer"));
 
             return new TransferResult(response, false);
@@ -86,6 +86,6 @@ public class TransferService {
     }
 
     public TransferResponse getTransfer(UUID id) {
-        return transferRepository.findById(id).orElse(null);
+        return transferRepository.findResponseById(id).orElse(null);
     }
 }
